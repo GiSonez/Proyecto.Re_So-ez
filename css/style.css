@@ -58,6 +58,12 @@ nav, main, aside, footer{
 				padding-left: 12px;
 				}	
 
+				.main__text--icon:hover{
+					transform: scale(1.5, 1.5) translate(-15px);
+					cursor: pointer;
+					transition: transform 2s;
+					}
+
 			.main__text--texto{
 				width: 80px;
 				text-align: justify;
