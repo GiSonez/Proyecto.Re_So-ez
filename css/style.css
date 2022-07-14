@@ -1,0 +1,1902 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+
+html{
+	font-size: 62.5%;
+	}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Flex', sans-serif;
+	}
+
+nav, main, aside, footer{
+	padding: 10px;
+	}
+
+		nav ul li{
+			list-style: none;
+			margin-left: 10px;
+			display: inline-block;
+			}
+
+		nav ul li a{
+			color: black;
+			text-decoration: none;
+			font-size: 0.7rem;
+			font-weight: 400
+			}
+
+		nav ul li a:hover{
+			color: black;
+			font-weight: 600;
+			}
+
+.nav{
+	background-color: white;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 15px;
+	}
+
+.main{
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+	}
+
+		.main__text{
+			width: 35%;
+			margin-right: 10px;
+			padding-left: 40px;
+			padding-right: 10px;
+			}
+
+			.main__text--icon{
+				width: 60px;
+				padding-left: 12px;
+				}	
+
+			.main__text--texto{
+				width: 80px;
+				text-align: justify;
+				font-size: 0.6rem;
+				letter-spacing: 0.3px;
+				word-spacing: 0.4px;
+				line-height: 7px;
+				}
+
+		.main__img{
+			width: 65%;	
+			}
+
+			.main__img--l{
+				width: 200px;
+				height: 140px;
+				}
+
+		.main__text h1{
+			font-size: 0.7rem;
+			letter-spacing: 0.2px;
+			word-spacing: 0.3px;
+			line-height: 8px;
+			}
+
+		.titulo_index{
+			background-color: #F6D63A;
+			height: 25px;
+			margin-top: 5px;
+			padding-top: 15px;
+			}
+
+		.titulo_index h2{	
+			color: white;
+			text-align: center;
+			font-size: 0.7rem;
+			letter-spacing: 3px;
+			word-spacing: 2px;
+			}
+
+		h3{
+			font-size: 0.7rem;
+			letter-spacing: 0.5px;
+			word-spacing: 0.5px;
+			}
+
+		aside div img{
+			width: 100px;
+			height: 100px;
+			border: solid 0.3px gray;
+			margin: 10px;
+			}
+
+		aside div p{
+			font-size: 0.7rem;
+			letter-spacing: 0.5px;
+			word-spacing: 0.5px;
+			line-height: 10px;
+			}
+
+.aside{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	}
+
+.art_1{
+	display: flex;
+	justify-content: center;
+	}
+
+	.art_1__text{
+		width: 180px;
+		text-align: justify;
+		margin-top: 10px;
+		padding: 10px;
+		}
+
+.art_2{
+	display: flex;
+	justify-content: center;
+	}
+
+	.art_2__text{
+		width: 180px;
+		text-align: justify;
+		margin-top: 8px;
+		padding: 10px;
+		}
+
+.art_3{
+	display: flex;
+	justify-content: center;
+	}
+
+	.art_3__text{
+		width: 180px;
+		text-align: justify;
+		margin-top: 10px;
+		padding: 10px;
+		}
+
+.pie{
+	background-color: #B7E9DA;
+	display: flex;
+	justify-content: center;
+	}
+
+		.pie__icon{
+			width: 20px;
+			}
+
+#contenedor{
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	}
+
+/* ---------- Inicio css El Taller ---------- */
+#contenedor_taller{
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	}
+
+.nav2{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px 10px 10px;
+	}
+
+	.nav2__logo{
+		width: 40px;
+		}
+
+.titulo_taller{
+	background-color: #F6D63A;
+	height: 25px;
+	margin-top: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_taller h1{
+		color: white;
+		text-align: center;
+		font-size: 0.7rem;
+		letter-spacing: 3px;
+		word-spacing: 2px;
+		}
+
+.main_taller{
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+	.text_taller{
+		padding: 10px 30px 20px 30px;
+		}
+
+		.text_taller p{
+			text-align: justify;
+			font-size: 0.7rem;
+			letter-spacing: 0.5px;
+			word-spacing: 0.5px;
+			line-height: 10px;
+			}
+
+		.text_taller p a{
+			text-decoration: none;
+			color: #3EA48F;
+			font-weight: bold
+			}	
+
+	.img_taller{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		}
+
+@keyframes animateTaller1{
+	0%{background-image: url(../img/taller/pinceles.jpg);}
+	75%{background-image: url(../img/taller/pintura.jpg);}
+	}
+
+@keyframes animateTaller2{
+	0%{background-image: url(../img/taller/removedor.jpg);}
+	75%{background-image: url(../img/taller/lija.jpg);}
+	}
+
+		.img_taller__1{
+			width: 160px;
+			height: 80px;
+			margin: 5px;
+			background-size: cover;
+			animation-name: animateTaller1;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			}
+
+		.img_taller__2{
+			width: 160px;
+			height: 80px;
+			background-size: cover;
+			margin: 5px;
+			animation-name: animateTaller2;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			}
+
+
+/* ---------- Cierre css El Taller ---------- */
+
+/* ---------- Inicio css Antes y Después ---------- */
+
+#contenedor_antes_y_despues{
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	display: grid;
+	grid-template-areas:
+	"nav3"
+	"titulo_ayd"
+	"texto_ayd"
+	"ayd_1"
+	"ayd_2"
+	"ayd_3"
+	"ayd_4"
+	"ayd_5"
+	"ayd_6"
+	"ayd_7"
+	"ayd_8"
+	"pie";
+	}
+
+.nav3{
+	grid-area: nav3;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px 10px 10px;
+	}
+
+	.nav3__logo{
+		width: 40px;
+		}
+
+.titulo_ayd{
+	grid-area: titulo_ayd;
+	background-color: #F6D63A;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_ayd h1{
+		color: white;
+		text-align: center;
+		font-size: 0.7rem;
+		letter-spacing: 3px;
+		word-spacing: 2px;
+		}
+
+.main_ayd_text{
+	grid-area: texto_ayd;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 5px;
+	}
+
+.main_ayd_text p{
+	text-align: justify;
+	font-size: 0.7rem;
+	letter-spacing: 0.5px;
+	word-spacing: 0.5px;
+	line-height: 10px;
+	padding: 0 30px;
+    }
+
+.img_ayd{
+	background-color: #F2EAC3;
+	width: 110px;
+	height: 110px;
+	margin: 5px;
+	border-top-left-radius: 40%;
+	border-style: solid;
+	border-color: #F2EAC3;
+	}
+
+.ayd_1{
+	grid-area: ayd_1;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	}
+
+.ayd_2{
+	grid-area: ayd_2;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	}
+
+.ayd_3{
+	grid-area: ayd_3;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	}
+
+.ayd_4{
+	grid-area: ayd_4;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	}
+
+.ayd_5{
+	grid-area: ayd_5;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	}
+
+.ayd_6{
+	grid-area: ayd_6;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	}
+
+.ayd_7{
+	grid-area: ayd_7;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+	}
+
+.ayd_8{
+	grid-area: ayd_8;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	}
+
+.pie{
+	grid-area: pie;
+	}
+
+/* ---------- Cierre css Antes y Después ---------- */
+
+
+/* ---------- Inicio css Presupuestos y Contacto ---------- */
+
+#contenedor_formulario{
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	}
+
+.nav4{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px 10px 10px;
+	}
+
+	.nav4__logo{
+		width: 40px;
+		}
+
+.titulo_formulario{
+	background-color: #F6D63A;
+	height: 25px;
+	margin-top: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_formulario h1{
+		color: white;
+		text-align: center;
+		font-size: 0.7rem;
+		letter-spacing: 3px;
+		word-spacing: 2px;
+		}
+
+.main_formulario{
+	width: auto;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.main_formulario form{
+		font-size: 0.9rem;
+		letter-spacing: 0.6px;
+		word-spacing: 0.6px;
+		line-height: 12px;
+		}
+
+	.main_formulario__contacto{
+		background-color: #F2EAC3;
+		padding: 10px;
+		margin: 5px;
+		border-style: solid;
+		border-color: #F2EAC3;
+		}
+
+	.main_formulario__presupuesto{
+		background-color: #F2EAC3;
+		padding: 10px;
+		margin: 5px;
+		border-style: solid;
+		border-color: #F2EAC3;
+		}
+
+		.main_formulario h2{
+			text-align: left;
+			font-size: 0.9rem;
+			letter-spacing: 0.6px;
+			word-spacing: 0.6px;
+			}
+
+		.main_formulario p{
+			text-align: justify;
+			font-size: 0.9rem;
+			letter-spacing: 0.6px;
+			word-spacing: 0.6px;
+			line-height: 12px;
+			}
+
+		.main_formulario fieldset{
+			padding: 5px;
+			border-color: white;
+			}
+
+
+/* ---------- Cierre css Presupuestos y Contacto ---------- */
+
+/* ---------- Inicio css Tienda ---------- */
+
+#contenedor_tienda{
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	display: grid;
+	grid-template-areas:
+	"nav5"
+	"titulo_tienda"
+	"tienda"
+	"prod_1"
+	"prod_2"
+	"prod_3"
+	"prod_4"
+	"prod_5"
+	"prod_6"
+	"prod_7"
+	"prod_8"
+	"pie";
+	}
+
+.nav5{
+	grid-area: nav5;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px 10px 10px;
+	}
+
+	.nav5__logo{
+		width: 40px;
+		}
+
+.titulo_tienda{
+	grid-area: titulo_tienda;
+	background-color: #F6D63A;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_tienda h1{
+		color: white;
+		text-align: center;
+		font-size: 0.7rem;
+		letter-spacing: 3px;
+		word-spacing: 2px;
+		}
+
+.tienda p{
+	text-align: center;
+	font-size: 0.7rem;
+	letter-spacing: 0.5px;
+	word-spacing: 0.5px;
+	line-height: 10px;
+	}
+
+.tienda{
+	grid-area: tienda;
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 10px 30px;
+	}
+
+#contenedor_tienda figure img{
+	width: 220px;
+	height: 220px;
+	border-top-left-radius: 40%;
+	border-style: solid;
+	border-color: white;
+	}
+
+#contenedor_tienda figcaption{
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	line-height: 16px;
+	}
+
+.producto_1{
+	grid-area: prod_1;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px;
+	}
+
+.producto_2{
+	grid-area: prod_2;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px;
+	}
+
+.producto_3{
+	grid-area: prod_3;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px;
+	}
+
+.producto_4{
+	grid-area: prod_4;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px;
+	}
+
+.producto_5{
+	grid-area: prod_5;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px;
+	}
+
+.producto_6{
+	grid-area: prod_6;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px;
+	}
+
+.producto_7{
+	grid-area: prod_7;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px;
+	}
+
+.producto_8{
+	grid-area: prod_8;
+	background-color: #F2EAC3;
+	justify-self: center;
+	padding: 5px;
+	margin: 5px 5px 10px 5px;
+	}
+
+.pie{
+	grid-area: pie;
+	}
+
+
+/* ---------- Cierre css Tienda ---------- */
+
+
+/*==========================================*/
+
+
+/* ---------- Inicio media queries index ---------- */
+
+@media (min-width: 768px){
+	
+	.nav{
+		height: 40px;
+		padding-top: 5px;
+		padding-right: 30px;
+		}
+
+	nav ul li{
+		margin-right: 10px;
+		}
+
+	nav ul li a{
+		font-size: 0.9rem;
+		}
+
+	.main__text{
+		width: 35%;
+		padding-top: 30px;
+		}
+
+	.main__text--icon{
+		width: 90px;
+		padding-left: 90px;
+		}	
+
+	.main__text--texto{
+		width: 150px;
+		padding-left: 60px;
+		text-align: justify;
+	    font-size: 0.9rem;
+	    letter-spacing: 0.6px;
+		word-spacing: 0.8px;
+		line-height: 12px;
+		}
+
+	.main__img--l{
+		width: 440px;
+		height: 300px;
+		}
+
+	.main__text h1{
+		font-size: 0.9rem;
+		letter-spacing: 0.6px;
+		word-spacing: 0.6px;
+		line-height: 12px;
+		}
+
+	.titulo_index{
+		height: 35px;
+		margin-top: 5px;
+		padding-top: 20px;
+		}
+
+		.titulo_index h2{
+			font-size: 1rem;
+			letter-spacing: 4px;
+			word-spacing: 6px;
+			}
+
+	aside h3{
+		font-size: 1rem;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		}
+
+	aside div p{
+		font-size: 0.9rem;
+		letter-spacing: 1px;
+		word-spacing: 3px;
+		line-height: 14px;
+		}
+
+	.aside{
+		background-color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		}
+
+	aside div img{
+		width: 160px;
+		height: 160px;
+		}
+
+	.art_1{
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 10px;
+		}
+
+		.art_1__text{
+			width: 160px;
+			text-align: justify;	
+			}
+
+	.art_2{
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 27px;
+		}
+
+		.art_2__text{
+			width: 160px;
+			text-align: justify;
+			}
+
+	.art_3{
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 12px;
+		}
+
+		.art_3__text{
+			width: 160px;
+			text-align: justify;
+			}
+
+	.pie{
+		margin-top: 5px;
+		}
+
+		.pie__icon{
+			width: 30px;
+			}
+
+}
+
+@media (min-width: 1024px){
+
+	.nav{
+		height: 50px;
+		padding-top: 10px;
+		padding-left: 20px;
+		}
+
+	nav ul li a{
+		font-size: 1.4rem;
+		}
+
+	.main__text{
+		width: 35%;
+		padding-top: 50px;
+		}
+
+	.main__text--icon{
+		width: 120px;
+		padding-left: 110px;
+		}	
+
+	.main__text--texto{
+		width: 180px;
+		padding-left: 80px;
+		text-align: justify;
+		}
+
+	.main__text--texto p{
+	    font-size: 1.2rem;
+	    letter-spacing: 1px;
+		word-spacing: 2px;
+		line-height: 16px;
+		}
+
+	.main__img--l{
+		width: 620px;
+		height: 480px;
+		}
+
+	.main__text h1{
+		font-size: 1.2rem;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		line-height: 16px;
+		}
+
+	.titulo_index{
+		height: 40px;
+		margin-top: 5px;
+		padding-top: 20px;
+		}
+
+	.titulo_index h2{
+		font-size: 1.2rem;
+		word-spacing: 5px;
+		letter-spacing: 7px;
+		}
+
+	.aside h3{
+		font-size: 1.2rem;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		}
+
+	aside div p{
+		font-size: 1.1rem;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		line-height: 16px;
+		}
+
+	.aside{
+		padding-top: 30px;
+		padding-bottom: 40px;
+		}
+
+	aside div img{
+		width: 220px;
+		height: 220px;
+		}
+
+	.art_1{
+		padding-bottom: 35px;
+		}
+
+		.art_1__text{
+			width: 220px;	
+			}
+
+	.art_2{
+		padding-bottom: 37px;
+		}
+
+		.art_2__text{
+			width: 220px;
+			text-align: justify;
+			}
+
+	.art_3{
+		padding-bottom: 35px;
+		}
+
+		.art_3__text{
+			width: 220px;
+			}
+
+		.pie__icon{
+			width: 40px;
+			}
+
+}
+
+@media (min-width: 1200px){
+
+	.nav{
+		height: 70px;
+		padding-top: 15px;
+		padding-left: 20px;
+		padding-right: 40px;
+		}
+
+	nav ul li a{
+		font-size: 1.6rem;
+		}
+
+	.main__text{
+		padding-top: 90px;
+		padding-left: 70px;
+		}
+
+	.main__text--icon{
+		width: 150px;
+		padding-left: 120px;
+		}	
+
+	.main__text--texto{
+		width: 230px;
+		}
+
+	.main__img--l{
+		width: 800px;
+		height: 540px;
+		}
+
+	.main__text h1{
+		font-size: 1.4rem;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		line-height: 18px;
+		}
+
+	.main__text p{
+		font-size: 1.4rem;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		line-height: 18px;
+		}
+
+	.titulo_index{
+		height: 50px;
+		margin-top: 5px;
+		padding-top: 30px;
+		}
+
+		.titulo_index h2{
+			font-size: 1.4rem;
+			word-spacing: 6px;
+			letter-spacing: 8px;
+			}
+
+
+	.aside h3{
+		font-size: 1.4rem;
+		word-spacing: 3px;
+		letter-spacing: 5px;
+		}
+
+	aside div p{
+		font-size: 1.2rem;
+		letter-spacing:3px;
+		word-spacing: 4px;
+		line-height: 18px;
+		}
+
+	aside div img{
+		width: 260px;
+		height: 260px;
+		}
+
+	.art_1{
+		padding-bottom: 35px;
+		}
+
+		.art_1__text{
+			width: 260px;	
+			}
+
+	.art_2{
+		padding-bottom: 55px;
+		}
+
+		.art_2__text{
+			width: 260px;
+			text-align: justify;
+			}
+
+
+		.art_3__text{
+			width: 260px;
+			}
+
+	.pie__icon{
+		width: 40px;
+		}
+
+}
+
+/* ---------- Cierre media queries index ---------- */
+
+/* ---------- Inicio media queries El Taller ---------- */
+
+@media (min-width: 768px){
+
+	nav ul li{
+		padding-top: 20px;
+		}
+
+	.nav2{
+		height: 40px;
+		padding: 5px 30px 10px 60px;
+		}
+
+		.nav2__logo{
+			width: 65px;
+			height: auto;
+			}
+
+.titulo_taller{
+	background-color: #F6D63A;
+	height: 30px;
+	margin-top: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_taller h1{
+		font-size: 1rem;
+		letter-spacing: 4px;
+		word-spacing: 6px;
+		}
+
+.main_taller{
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	}
+
+	.text_taller{
+		width: 50%;
+		padding: 30px 30px 30px 60px;
+		}
+
+		.text_taller p{
+			text-align: justify;
+			font-size: 0.9rem;
+			letter-spacing: 1px;
+			word-spacing: 3px;
+			line-height: 14px;
+			}
+
+		.text_taller p a{
+			text-decoration: none;
+			color: #06CCA4;
+			font-weight: bold
+			}	
+
+	.img_taller{
+		padding-right: 20px;
+		padding-top: 30px;
+		margin-top: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		}
+
+		.img_taller__1{
+			width: 260px;
+			height: 130px;
+			margin: 10px;
+			}
+
+		.img_taller__2{
+			width: 260px;
+			height: 130px;
+			margin: 10px;
+			}
+
+}
+
+@media (min-width: 1024px){
+
+.nav2{
+	height: 50px;
+	padding: 10px 30px 10px 60px;
+	}
+
+	.nav2__logo{
+		width: 80px;
+		}
+
+	.titulo_taller{
+		height: 40px;
+		margin-top: 5px;
+		padding-top: 25px;
+		}
+
+
+	.titulo_taller h1{
+		font-size: 1.2rem;
+		letter-spacing: 5px;
+		word-spacing: 7px;
+		}
+
+
+	.text_taller{
+		width: 50%;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 100px;
+		padding-right: 30px;
+		}
+
+		.text_taller p{
+			font-size: 1.1rem;
+			letter-spacing: 1px;
+			word-spacing: 3px;
+			line-height: 16px;
+			}	
+
+	.img_taller{
+		padding-right: 40px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-right: 30px;
+		margin-top: 10px;
+		}
+
+		.img_taller__1{
+			width: 300px;
+			height: 150px;
+			margin: 10px;
+			}
+
+		.img_taller__2{
+			width: 300px;
+			height: 150px;
+			margin: 10px;
+			}
+}
+
+@media (min-width: 1200px){
+
+nav ul li{
+		padding-top: 30px;
+		}
+
+.nav2{
+	height: 70px;
+	padding: 15px 40px 10px 60px;
+	}
+
+	.nav2__logo{
+		width: 110px;
+		}
+
+	.titulo_taller{
+		height: 50px;
+		margin-top: 5px;
+		padding-top: 30px;
+		}
+
+
+	.titulo_taller h1{
+		font-size: 1.4rem;
+		letter-spacing: 6px;
+		word-spacing: 8px;
+		}
+
+	.text_taller{
+		width: 50%;
+		padding-top: 50px;
+		padding-bottom: 40px;
+		padding-left: 120px;
+		padding-right: 50px;
+		}
+
+		.text_taller p{
+			font-size: 1.4rem;
+			letter-spacing: 2px;
+			word-spacing: 3px;
+			line-height: 20px;
+			}	
+
+	.img_taller{
+		padding-top: 40px;
+		padding-bottom: 30px;
+		padding-right: 30px;
+		margin-top: 10px;
+		}
+
+		.img_taller__1{
+			width: 380px;
+			height: 190px;
+			margin: 15px;
+			}
+
+		.img_taller__2{
+			width: 380px;
+			height: 190px;
+			margin: 15px;
+			}
+
+}
+
+/* ---------- Inicio media queries Antes y Después ---------- */
+
+@media (min-width: 768px){
+
+	#contenedor_antes_y_despues{
+		grid-template-areas:
+		"nav3 nav3"
+		"titulo_ayd titulo_ayd"
+		"texto_ayd texto_ayd"
+		"ayd_1 ayd_2"
+		"ayd_3 ayd_4"
+		"ayd_5 ayd_6"
+		"ayd_7 ayd_8"
+		"pie pie";
+		}
+
+.nav3{
+	height: 40px;
+	padding: 5px 30px 10px 60px;
+	}
+
+	.nav3__logo{
+		width: 65px;
+		}
+
+.titulo_ayd{
+	height: 30px;
+	margin-top: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_ayd h1{
+		font-size: 1rem;
+		letter-spacing: 4px;
+		word-spacing: 6px;
+		}
+
+.main_ayd_text{
+	padding: 20px 0;
+	}
+
+.main_ayd_text p{
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	line-height: 14px;
+	text-align: center;
+	}
+
+.img_ayd{
+	width: 130px;
+	height: 130px;
+	margin: 10px;
+	}
+
+.ayd_1{
+	padding-left: 40px;
+	}
+
+.ayd_2{
+	padding-right: 40px;
+	}
+
+.ayd_3{
+	padding-left: 40px;
+	}
+
+.ayd_4{
+	padding-right: 40px;
+	}
+
+.ayd_5{
+	padding-left: 40px;
+	}
+
+.ayd_6{
+	padding-right: 40px;
+	}
+
+.ayd_7{
+	padding-left: 40px;
+	margin-bottom: 20px;
+	}
+
+.ayd_8{
+	padding-right: 40px;
+	margin-bottom: 20px;
+	}
+
+}
+
+@media (min-width: 1024px){
+
+.nav3{
+	height: 50px;
+	padding: 10px 30px 10px 60px;
+	}
+
+	.nav3__logo{
+		width: 80px;
+		padding-right: 20px;
+		}
+
+.titulo_ayd{
+	height: 40px;
+	margin-top: 5px;
+	padding-top: 25px;
+	}
+
+	.titulo_ayd h1{
+		font-size: 1.2rem;
+		letter-spacing: 5px;
+		word-spacing: 7px;
+		}
+
+	.main_ayd_text p{
+		font-size: 1.2rem;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		line-height: 16px;
+		}
+
+.img_ayd{
+	width: 180px;
+	height: 180px;
+	margin: 10px;
+	}
+
+.ayd_1{
+	padding-left: 60px;
+	}
+
+.ayd_2{
+	padding-right: 60px;
+	}
+
+.ayd_3{
+	padding-left: 60px;
+	}
+
+.ayd_4{
+	padding-right: 60px;
+	}
+
+.ayd_5{
+	padding-left: 60px;
+	}
+
+.ayd_6{
+	padding-right: 60px;
+	}
+
+.ayd_7{
+	padding-left: 60px;
+	}
+
+.ayd_8{
+	padding-right: 60px;
+	padding-bottom: 40px;
+	}
+
+}
+
+@media (min-width: 1200px){
+
+.nav3{
+	height: 70px;
+	padding: 15px 40px 10px 60px;
+	}
+
+	.nav3__logo{
+		width: 110px;
+		padding-right: 20px;
+		}
+
+.titulo_ayd{
+	height: 50px;
+	margin-top: 5px;
+	padding-top: 30px;
+	}
+
+	.titulo_ayd h1{
+		font-size: 1.4rem;
+		letter-spacing: 6px;
+		word-spacing: 8px;
+		}
+
+.main_ayd_text{
+	padding: 30px 40px;
+	}
+
+	.main_ayd_text p{
+		font-size: 1.4rem;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		line-height: 18px;
+		}
+
+.img_ayd{
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	}
+
+}
+
+
+/* ---------- Inicio media queries Presupuestos y Contacto ----------- */
+
+@media (min-width: 768px){
+
+nav ul li{
+	padding-top: 20px;
+	}
+
+.nav4{
+	height: 40px;
+	padding: 5px 30px 10px 60px;
+	}
+
+	.nav4__logo{
+		width: 65px;
+		}
+
+.titulo_formulario{
+	height: 30px;
+	margin-top: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_formulario h1{
+		font-size: 1rem;
+		letter-spacing: 4px;
+		word-spacing: 6px;
+		}
+
+.main_formulario{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	}
+
+	.main_formulario form{
+		font-size: 0.9rem;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		line-height: 14px;
+		}
+
+	.main_formulario__contacto{
+		width: 40%;
+		height: 290px;
+		padding: 20px;
+		margin: 0 10px;
+		}
+
+
+	.main_formulario__presupuesto{
+		width: 40%;
+		padding: 20px;
+		margin: 0 10px;
+		}
+
+		.main_formulario h2{
+			font-size: 1rem;
+			letter-spacing: 1px;
+			word-spacing: 1px;
+			}
+
+		.main_formulario p{
+			font-size: 0.9rem;
+			letter-spacing: 0.6px;
+			word-spacing: 0.6px;
+			line-height: 14px;
+			}
+
+}
+
+@media (min-width: 1024px){
+
+.nav4{
+	height: 50px;
+	padding: 10px 30px 10px 60px;
+	}
+
+	.nav4__logo{
+		width: 80px;
+		padding-right: 20px;
+		}
+
+.titulo_formulario{
+	height: 40px;
+	margin-top: 5px;
+	padding-top: 25px;
+	}
+
+	.titulo_formulario h1{
+		font-size: 1.2rem;
+		letter-spacing: 5px;
+		word-spacing: 7px;
+		}
+
+.main_formulario{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	}
+
+	.main_formulario form{
+		font-size: 1.1rem;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		line-height: 14px;
+		}
+
+	.main_formulario__contacto{
+		width: 35%;
+		height: 290px;
+		padding: 30px;
+		margin-right: 15px;
+		}
+
+
+	.main_formulario__presupuesto{
+		width: 35%;
+		padding: 30px;
+		margin-left: 15px;
+		}
+
+		.main_formulario h2{
+			font-size: 1.2rem;
+			letter-spacing: 1px;
+			word-spacing: 2px;
+			}
+
+		.main_formulario p{
+			font-size: 1.1rem;
+			letter-spacing: 1px;
+			word-spacing: 1px;
+			line-height: 14px;
+			}
+
+		.main_formulario fieldset{
+			padding: 10px;
+			border-color: white;
+			}
+
+}
+
+
+@media (min-width: 1200px){
+
+.nav4{
+	height: 70px;
+	padding: 15px 40px 10px 60px;
+	}
+
+	.nav4__logo{
+		width: 110px;
+		padding-right: 20px;
+		}
+
+.titulo_formulario{
+	height: 50px;
+	margin-top: 5px;
+	padding-top: 30px;
+	}
+
+	.titulo_formulario h1{
+		font-size: 1.4rem;
+		letter-spacing: 6px;
+		word-spacing: 8px;
+		}
+
+	.main_formulario form{
+		font-size: 1.2rem;
+		letter-spacing: 1.2px;
+		word-spacing: 1.2px;
+		line-height: 18px;
+		}
+
+	.main_formulario__contacto{
+		width: 35%;
+		height: 310px;
+		padding: 30px;
+		margin-right: 15px;
+		}
+
+
+	.main_formulario__presupuesto{
+		width: 35%;
+		padding: 30px;
+		margin-left: 15px;
+		}
+
+		.main_formulario h2{
+			font-size: 1.4rem;
+			letter-spacing: 1.2px;
+			word-spacing: 1.2px;
+			}
+
+		.main_formulario p{
+			font-size: 1.4rem;
+			letter-spacing: 0.6px;
+			word-spacing: 0.6px;
+			line-height: 20px;
+			}
+
+}
+
+/* ---------- Inicio media queries Tienda ---------- */
+
+@media (min-width: 768px){
+
+#contenedor_tienda{
+	grid-template-areas:
+	"nav5 nav5"
+	"titulo_tienda titulo_tienda"
+	"tienda tienda"
+	"prod_1 prod_2"
+	"prod_3 prod_4"
+	"prod_5 prod_6"
+	"prod_7 prod_8"
+	"pie pie";
+	}
+
+nav ul li{
+	padding-top: 20px;
+	}
+
+.nav5{
+	height: 40px;
+	padding: 5px 30px 10px 60px;
+	}
+
+	.nav5__logo{
+		width: 65px;
+		}
+
+.titulo_tienda{
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	}
+
+	.titulo_tienda h1{
+		font-size: 1rem;
+		letter-spacing: 4px;
+		word-spacing: 6px;
+		}
+
+.tienda p{
+	text-align: center;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 14px;
+	}
+
+.tienda{
+	margin-bottom: 10px;
+	padding: 10px 70px;
+	}
+
+#contenedor_tienda figure img{
+	width: 240px;
+	height: 240px;
+	}
+
+#contenedor_tienda figcaption{
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	}
+
+.producto_1{
+	justify-self: flex-end;
+	padding: 5px;
+	margin: 10px 15px;
+	}
+
+.producto_2{
+	justify-self: flex-start;
+	padding: 5px;
+	margin: 10px 15px;
+	}
+
+.producto_3{
+	justify-self: flex-end;
+	padding: 5px;
+	margin: 10px 15px;
+	}
+
+.producto_4{
+	justify-self: flex-start;
+	padding: 5px;
+	margin: 10px 15px;
+	}
+
+.producto_5{
+	justify-self: flex-end;
+	padding: 5px;
+	margin: 10px 15px;
+	}
+
+.producto_6{
+	justify-self: flex-start;
+	padding: 5px;
+	margin: 10px 15px;
+	}
+
+.producto_7{
+	justify-self: flex-end;
+	padding: 5px;
+	margin: 10px 15px 20px 15px;
+	}
+
+.producto_8{
+	justify-self: flex-start;
+	padding: 5px;
+	margin: 10px 15px 20px 15px;
+	}	
+
+}
+
+@media (min-width: 1024px){
+
+#contenedor_tienda{
+	grid-template-areas:
+	"nav5 nav5 nav5"
+	"titulo_tienda titulo_tienda titulo_tienda"
+	"tienda tienda tienda"
+	"prod_1 prod_2 prod_3" 
+	"prod_4 prod_5 prod_6"
+	"prod_7 prod_8 none"
+	"pie pie pie"
+	}
+
+.nav5{
+	height: 50px;
+	padding: 10px 30px 10px 60px;
+	}
+
+	.nav5__logo{
+		width: 80px;
+		padding-right: 20px;
+		}
+
+.titulo_tienda{
+	height: 40px;
+	margin-bottom: 5px;
+	padding-top: 25px;
+	}
+
+	.titulo_tienda h1{
+		font-size: 1.2rem;
+		letter-spacing: 5px;
+		word-spacing: 7px;
+		}
+
+.tienda{
+	padding: 20px 40px;
+	}
+
+	.tienda p{
+		font-size: 1.2rem;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		line-height: 16px;
+		}
+
+#contenedor_tienda figure img{
+	width: 230px;
+	height: 230px;
+	}
+
+#contenedor_tienda figcaption{
+	font-size: 1.3rem;
+	letter-spacing: 0.6px;
+	word-spacing: 0.6px;
+	line-height: 18px;
+	}
+
+.producto_1{
+	justify-self: flex-end;
+	padding: 5px;
+	margin: 10px;
+	}
+
+.producto_2{
+	justify-self: center;
+	padding: 5px;
+	margin: 10px;
+	}
+
+.producto_3{
+	justify-self: flex-start;
+	padding: 5px;
+	margin: 10px;
+	}
+
+.producto_4{
+	justify-self: flex-end;
+	padding: 5px;
+	margin: 10px;
+	}
+
+.producto_5{
+	justify-self: center;
+	padding: 5px;
+	margin: 10px;
+	}
+
+.producto_6{
+	justify-self: flex-start;
+	padding: 5px;
+	margin: 10px;
+	}
+
+.producto_7{
+	justify-self: flex-end;
+	padding: 5px;
+	margin: 10px 10px 20px 10px;
+	}
+
+.producto_8{
+	justify-self: center;
+	padding: 5px;
+	margin: 10px 10px 20px 10px;
+	}	
+
+}
+
+@media (min-width: 1200px){
+
+.nav5{
+	height: 70px;
+	padding: 15px 40px 10px 60px;
+	}
+
+	.nav5__logo{
+		width: 110px;
+		padding-right: 20px;
+		}
+
+.titulo_tienda{
+	height: 50px;
+	margin-bottom: 5px;
+	padding-top: 30px;
+	}
+
+	.titulo_tienda h1{
+		font-size: 1.4rem;
+		letter-spacing: 6px;
+		word-spacing: 8px;
+		}
+
+.tienda{
+	padding: 30px 60px;
+	}
+
+.tienda p{
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 20px;
+	}
+
+#contenedor_tienda figure img{
+	width: 250px;
+	height: 250px;
+	}
+
+#contenedor_tienda figcaption{
+	font-size: 1.4rem;
+	line-height: 20px;
+	}
+
+}
